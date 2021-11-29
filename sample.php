@@ -1,8 +1,8 @@
 $url="https://smsgateway.greenline.lk/api/v3/sms/send";     //Enter API end point
-$apitoken="5|fXvvlA24752dMdBhGMuH1L3GI4aOtewbxXbqioTk ";    //Enter API token 
-$recipient="07######";                                      //Enter the recipient number
+$apitoken="8|fXvvlA24752dMdBkGMuH1L3GI4aOkewbxXbqitTk ";    //Enter API token 
+$recipient="0755399599";                                    //Enter the recipient number
 $senderid="Demo_Green";                                     //Enter sender ID
-$message="Dummy Message";                                   //Enter the message
+$message="Your Message Here";                               //Enter the message
 $postData = array(
            "recipient"=>$recipient,
            "sender_id"=>$senderid,
